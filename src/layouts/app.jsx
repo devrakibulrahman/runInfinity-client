@@ -1,10 +1,10 @@
 
 
-const app = () => {
+const App = () => {
     return (
         <>
         </>
     );
 };
 
-export default app;
+export default App;
