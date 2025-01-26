@@ -15,29 +15,29 @@ const Navbar = () => {
     
     return (
         <>
-            <div className="w-full min-h-[100px] flex items-center justify-between lg:min-h-[120px]">
+            <div className="w-full min-h-[100px] flex items-center justify-between absolute z-40 lg:min-h-[120px]">
                 <div className="container mx-auto px-4">
                     <nav className="w-full">
                         <div className="w-full flex items-center justify-between">
                             <div className="w-auto">
-                                <h1 className="poppins text-3xl font-bold uppercase text-black">RunInfinity</h1>
+                                <h1 className="poppins text-3xl font-bold uppercase text-white">RunInfinity</h1>
                             </div>
                             <div className="w-auto hidden lg:block">
                                 <ul className="w-auto flex items-center gap-6">
-                                    <Link><li className="poppins text-base font-medium text-black">Home</li></Link>
-                                    <Link><li className="poppins text-base font-medium text-black/50 transition-ease-linear hover:text-black">About Us</li></Link>
-                                    <Link><li className="poppins text-base font-medium text-black/50 transition-ease-linear hover:text-black">Marathons</li></Link>
+                                    <Link><li className="poppins text-base font-medium text-white">Home</li></Link>
+                                    <Link><li className="poppins text-base font-medium text-white/80 transition-ease-linear hover:text-white">About Us</li></Link>
+                                    <Link><li className="poppins text-base font-medium text-white/80 transition-ease-linear hover:text-white">Marathons</li></Link>
                                 </ul>
                             </div>
                             <div className="w-auto hidden lg:block">
                                 <ul className="w-auto flex items-center gap-5">
-                                    <Link><li className="poppins text-base font-medium text-black/40 transition-ease-linear hover:text-black">Login</li></Link>
+                                    <Link><li className="poppins text-base font-medium text-white/80 transition-ease-linear hover:text-white">Login</li></Link>
                                     <button className="poppins text-base font-semibold text-white bg-gradient-to-r from-orange-400 to-orange-500 py-2 px-4 cursor-pointer transition-ease-linear hover:from-orange-500 hover:to-orange-400">Register</button>
                                 </ul>
                             </div>
                             <div className="w-auto lg:hidden">
                                 <div onClick={handleActive} className="w-auto">
-                                    <FaBars className="text-[25px]"></FaBars>
+                                    <FaBars className="text-[25px] text-white"></FaBars>
                                 </div>
                             </div>
                         </div>

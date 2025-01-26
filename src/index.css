@@ -11,4 +11,8 @@
     .transition-duration-200 {
         @apply transition duration-200
     }
+
+    .bg-fit {
+      @apply bg-cover bg-no-repeat bg-center
+    }
 }

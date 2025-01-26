@@ -5,3 +5,15 @@
 .z-index {
     z-index: 999;
 }
+
+.banner-1 {
+    background-image: url(/public/img/banner1.png);
+}
+
+.banner-2 {
+    background-image: url(/public/img/banner2.png);
+}
+
+.banner-3 {
+    background-image: url(/public/img/banner3.png);
+}
