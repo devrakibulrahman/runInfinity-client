@@ -1,3 +1,4 @@
+import AboutSection from "../components/AboutSection";
 import Banner from "../components/Banner";
 
 const HomePage = () => {
@@ -5,6 +6,7 @@ const HomePage = () => {
         <>
             <div className="w-full min-h-screen">
                 <Banner></Banner>
+                <AboutSection></AboutSection>
             </div>
         </>
     );

@@ -40,12 +40,16 @@ const Banner = () => {
                             <div key={banner?.id} className="w-full min-h-screen">
                                 <SwiperSlide>
                                     <div className={`w-full min-h-screen ${banner?.banner} bg-fit flex items-center justify-center`}>
-                                        <div className="w-full">
+                                        <div className="w-full mt-20">
                                             <div className="container mx-auto px-4">
-                                                <div className="w-full max-w-[800px]">
-                                                    <h1 className="poppins text-6xl text-white font-bold leading-16 mb-5 transition-all ease-linear duration-300 md:text-7xl md:leading-20 xl:text-[80px] xl:leading-[100px]">{banner?.title}</h1>
+                                                <div className="max-w-[800px]">
+                                                    <h1 className="poppins text-6xl text-white font-bold leading-16 mb-5 transition-all ease-linear duration-300 md:text-7xl md:leading-20 xl:text-[80px] xl:leading-[100px]">
+                                                        {banner?.title}
+                                                    </h1>
                                                     <div className="w-full mb-7">
-                                                        <p className="poppins text-base text-white font-normal leading-7">{banner?.para}</p>
+                                                        <p className="poppins text-base text-white font-normal leading-7">
+                                                            {banner?.para}
+                                                        </p>
                                                     </div>
                                                 </div>
                                                 <div className="w-auto">
