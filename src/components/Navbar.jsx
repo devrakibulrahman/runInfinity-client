@@ -15,21 +15,21 @@ const Navbar = () => {
     
     return (
         <>
-            <div className="w-full min-h-[100px] flex items-center justify-between">
+            <div className="w-full min-h-[100px] flex items-center justify-between lg:min-h-[120px]">
                 <div className="container mx-auto px-4">
                     <nav className="w-full">
                         <div className="w-full flex items-center justify-between">
                             <div className="w-auto">
                                 <h1 className="poppins text-3xl font-bold uppercase text-black">RunInfinity</h1>
                             </div>
-                            <div className="w-auto">
+                            <div className="w-auto hidden lg:block">
                                 <ul className="w-auto flex items-center gap-6">
                                     <Link><li className="poppins text-base font-medium text-black">Home</li></Link>
                                     <Link><li className="poppins text-base font-medium text-black/50 transition-ease-linear hover:text-black">About Us</li></Link>
                                     <Link><li className="poppins text-base font-medium text-black/50 transition-ease-linear hover:text-black">Marathons</li></Link>
                                 </ul>
                             </div>
-                            <div className="w-auto">
+                            <div className="w-auto hidden lg:block">
                                 <ul className="w-auto flex items-center gap-5">
                                     <Link><li className="poppins text-base font-medium text-black/40 transition-ease-linear hover:text-black">Login</li></Link>
                                     <button className="poppins text-base font-semibold text-white bg-gradient-to-r from-orange-400 to-orange-500 py-2 px-4 cursor-pointer transition-ease-linear hover:from-orange-500 hover:to-orange-400">Register</button>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className={`w-full min-h-screen fixed top-0 transition-all ${active ? 'left-0 ease-in duration-500' : '-left-[110%] ease-in-out duration-700'} bg-black/20`}>
+            <div className={`w-full min-h-screen fixed top-0 transition-all ${active ? 'left-0 ease-in duration-500' : '-left-[110%] ease-in-out duration-700'} bg-black/20 z-index`}>
                 <div className={`w-full min-h-screen fixed top-0 transition-all ${active ? 'left-0 ease-in duration-700' : '-left-[100%] ease-in-out duration-300'} bg-white px-4 dark:bg-gray-950`}>
                     <div className="w-full min-h-[100px] flex items-center justify-end">
                         <div onClick={handleActive} className="w-auto">
