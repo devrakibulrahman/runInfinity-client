@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import Button from "./Button";
 
-const Banner = () => {
+const BannerSection = () => {
 
     //? banner data array declare here ------------------------------->
     const banner = [
@@ -68,4 +68,4 @@ const Banner = () => {
     );
 };
 
-export default Banner;
+export default BannerSection;

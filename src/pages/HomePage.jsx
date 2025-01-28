@@ -1,11 +1,13 @@
 import AboutSection from "../components/AboutSection";
-import Banner from "../components/Banner";
+import BannerSection from "../components/BannerSection";
+import FeatureSection from "../components/FeatureSection";
 
 const HomePage = () => {
     return (
         <>
             <div className="w-full min-h-screen">
-                <Banner></Banner>
+                <BannerSection></BannerSection>
+                <FeatureSection></FeatureSection>
                 <AboutSection></AboutSection>
             </div>
         </>
