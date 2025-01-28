@@ -4,7 +4,7 @@ import SectionHeading from "./SectionHeading";
 const AboutSection = () => {
     return (
         <>
-            <div className="w-full min-h-[500px] py-16">
+            <div className="w-full min-h-[500px] py-16 xl:py-24">
                 <div className="container mx-auto px-4">
                     <SectionHeading subText="About Us" heading="Empowering Runners, Inspiring Change"></SectionHeading>
                     <div className="w-full grid grid-cols-1 mt-14 gap-10 xl:grid-cols-2">
