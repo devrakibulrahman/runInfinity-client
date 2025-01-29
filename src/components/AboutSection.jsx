@@ -7,7 +7,7 @@ const AboutSection = () => {
             <div className="w-full min-h-[500px] py-16 xl:py-24">
                 <div className="container mx-auto px-4">
                     <SectionHeading subText="About Us" heading="Empowering Runners, Inspiring Change"></SectionHeading>
-                    <div className="w-full grid grid-cols-1 mt-14 gap-10 xl:grid-cols-2">
+                    <div className="w-full grid grid-cols-1 mt-10 gap-10 xl:grid-cols-2">
                         <div className="w-full min-h-[220px] banner-1 bg-fit sm:min-h-[350px] md:min-h-[500px] lg:min-h-[600px] xl:min-h-[450px]"></div>
                         <div className="w-full min-h-[220px]">
                             <div className="w-full">
