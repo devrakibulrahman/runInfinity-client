@@ -3,6 +3,7 @@ import BannerSection from "../components/BannerSection";
 import FeatureSection from "../components/FeatureSection";
 import JoinUsSection from "../components/JoinUsSection";
 import MarathonSection from "../components/MarathonSection";
+import SubscriptionSection from "../components/SubscriptionSection";
 import UpcomingMarathonSection from "../components/UpcomingMarathonSection";
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
                 <MarathonSection></MarathonSection>
                 <JoinUsSection></JoinUsSection>
                 <UpcomingMarathonSection></UpcomingMarathonSection>
+                <SubscriptionSection></SubscriptionSection>
             </div>
         </>
     );
