@@ -31,7 +31,7 @@ const Navbar = () => {
                             </div>
                             <div className="w-auto hidden lg:block">
                                 <ul className="w-auto flex items-center gap-5">
-                                    <Link><li className="poppins text-base font-medium text-white/80 transition-ease-linear hover:text-white">Login</li></Link>
+                                    <Link to='/auth/login'><li className="poppins text-base font-medium text-white/80 transition-ease-linear hover:text-white">Login</li></Link>
                                     <button className="poppins text-base font-semibold text-white bg-gradient-to-r from-orange-400 to-orange-500 py-2 px-4 cursor-pointer transition-ease-linear hover:from-orange-500 hover:to-orange-400">Register</button>
                                 </ul>
                             </div>
