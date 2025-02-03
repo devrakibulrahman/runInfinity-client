@@ -5,7 +5,7 @@ const UpcomingCard = () => {
     return (
         <>
             <div className="w-full min-h-[320px] flex flex-col xl:gap-5 xl:flex-row">
-                <div className="w-full min-h-[320px] bg-[url('/img/upcoming1.jpg')] bg-center bg-cover"></div>
+                <div className="w-full min-h-[320px] bg-[url('/img/upcoming1.jpg')] bg-fit"></div>
                 <div className="w-full min-h-[200px] bg-white border border-gray-600/20 p-4 flex flex-col items-center gap-5">
                     <div className="w-full">
                         <h1 className="poppins text-xl font-bold text-black lg:text-2xl">hello</h1>

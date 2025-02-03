@@ -1,5 +1,6 @@
 import AboutSection from "../components/AboutSection";
 import BannerSection from "../components/BannerSection";
+import BlogSection from "../components/BlogSection";
 import FeatureSection from "../components/FeatureSection";
 import JoinUsSection from "../components/JoinUsSection";
 import MarathonSection from "../components/MarathonSection";
@@ -17,6 +18,7 @@ const HomePage = () => {
                 <JoinUsSection></JoinUsSection>
                 <UpcomingMarathonSection></UpcomingMarathonSection>
                 <SubscriptionSection></SubscriptionSection>
+                <BlogSection></BlogSection>
             </div>
         </>
     );
