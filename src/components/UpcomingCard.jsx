@@ -6,15 +6,15 @@ const UpcomingCard = () => {
         <>
             <div className="w-full min-h-[320px] flex flex-col xl:gap-5 xl:flex-row">
                 <div className="w-full min-h-[320px] bg-[url('/img/upcoming1.jpg')] bg-fit"></div>
-                <div className="w-full min-h-[200px] bg-white border border-gray-600/20 p-4 flex flex-col items-center gap-5">
+                <div className="w-full min-h-[200px] bg-white border border-gray-600/20 p-4 flex flex-col items-center gap-5 dark:bg-gray-950 dark:border-slate-500/20">
                     <div className="w-full">
-                        <h1 className="poppins text-xl font-bold text-black lg:text-2xl">hello</h1>
+                        <h1 className="poppins text-xl font-bold text-black lg:text-2xl dark:text-white">hello</h1>
                         <div className="w-full mt-3">
-                            <p className="poppins text-sm font-normal leading-6 text-black lg:text-base">Lorem ipsum, dolor sit amet ...</p>
+                            <p className="poppins text-sm font-normal leading-6 text-black lg:text-base dark:text-white">Lorem ipsum, dolor sit amet ...</p>
                         </div>
                     </div>
                     <div className="w-full relative">
-                        <div className="w-full absolute top-0 left-0 min-h-[0.2px] bg-gray-600/20"></div>
+                        <div className="w-full absolute top-0 left-0 min-h-[0.2px] bg-gray-600/20 dark:bg-slate-500/50"></div>
                         <div className="w-2 h-2 bg-orange-400 rounded-full absolute top-[50%] right-0 transform -translate-y-[50%]"></div>
                     </div>
                     <div className="w-full flex flex-col gap-2">
@@ -22,23 +22,23 @@ const UpcomingCard = () => {
                             <div className="w-auto">
                                 <FaClock className="text-sm text-orange-400"></FaClock>
                             </div>
-                            <p className="poppins text-sm text-black font-normal">06:00 AM - 07.00 AM</p>
+                            <p className="poppins text-sm text-black font-normal dark:text-white">06:00 AM - 07.00 AM</p>
                         </div>
                         <div className="w-auto flex items-center gap-2">
                             <div className="w-auto">
                                 <FaLocationDot className="text-base text-orange-400"></FaLocationDot>
                             </div>
-                            <p className="poppins text-sm text-black font-normal">Seoul Forest Park, Korea</p>
+                            <p className="poppins text-sm text-black font-normal dark:text-white">Seoul Forest Park, Korea</p>
                         </div>
                         <div className="w-auto flex items-center gap-2">
                             <div className="w-auto">
                                 <FaCalendarAlt className="text-base text-orange-400"></FaCalendarAlt>
                             </div>
-                            <p className="poppins text-sm text-black font-normal">May 02, 2025</p>
+                            <p className="poppins text-sm text-black font-normal dark:text-white">May 02, 2025</p>
                         </div>
                     </div>
                     <div className="w-full relative">
-                        <div className="w-full absolute top-0 left-0 min-h-[0.2px] bg-gray-600/20"></div>
+                        <div className="w-full absolute top-0 left-0 min-h-[0.2px] bg-gray-600/20 dark:bg-slate-500/50"></div>
                         <div className="w-2 h-2 bg-orange-400 rounded-full absolute top-[50%] right-0 transform -translate-y-[50%]"></div>
                     </div>
                     <div className="w-full">
