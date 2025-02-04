@@ -17,3 +17,51 @@
 .banner-3 {
     background-image: url(/public/img/banner3.png);
 }
+
+/*? input check box style here ---------------->  */
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: white;
+    border: 1px solid #4a55654b;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+input[type="checkbox"]:checked{
+    background-color: orange;
+    border: 1px solid orange;
+    transition: all ease-in-out 0.2s;
+}
+
+input[type="checkbox"]::after{
+    font-family: "Font Awesome 6 Free";
+    content: "\f00c";
+    font-weight: 900;
+    font-size: .7rem;
+    color: white;
+    display: none;
+    transition: all ease-in-out 0.2s;
+}
+
+input[type="checkbox"]:checked::after{
+    display: block;
+    border: orange;
+    transition: all ease-in-out 0.2s;
+}
+
+html.dark input[type="checkbox"]{
+    background-color: transparent;
+    border: 1px solid #4a5565;
+}
+
+html.dark input[type="checkbox"]:checked{
+    background-color: orange;
+    border: 1px solid orange;
+}
