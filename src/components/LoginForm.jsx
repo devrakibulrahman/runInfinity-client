@@ -40,7 +40,7 @@ const LoginForm = () => {
                         <button className="popping text-base font-medium text-gray-500 cursor-pointer w-full px-5 py-3 border border-gray-600/20 transition-ease-linear hover:text-gray-950 dark:hover:text-white dark:border-gray-600">Continue With Google</button>
                     </div>
                     <div className="w-full mt-4 text-center">
-                        <p className="poppins text-sm font-medium capitalize text-black dark:text-white">don&apos;t have an account? <Link className="transition-ease-linear hover:underline">register</Link></p>
+                        <p className="poppins text-sm font-medium capitalize text-black dark:text-white">don&apos;t have an account? <Link to='/auth/register' className="transition-ease-linear hover:underline">register</Link></p>
                     </div>
                 </div>
             </div>

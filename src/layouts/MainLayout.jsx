@@ -14,7 +14,7 @@ const MainLayout = () => {
                 <Navbar></Navbar>
                 <Outlet></Outlet>
                 {
-                    location.pathname === '/auth/login'
+                    location.pathname === '/auth/login' || location.pathname === '/auth/register'
                     ?
                     ''
                     :

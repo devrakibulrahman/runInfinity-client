@@ -1,16 +1,21 @@
 import { useState } from "react";
 import { FaBars, FaFacebookF, FaInstagram, FaLinkedinIn, FaPinterestP, FaSun } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
 
     //? state declare here ---------------------------------------->
     const [active, setActive] = useState(false);
+    const navigate = useNavigate();
 
     //? event handler declare here -------------------------------->
     const handleActive = () => {
         setActive(!active);
+    };
+
+    const handleRegister = () => {
+        navigate('/auth/register');
     };
     
     return (
@@ -32,7 +37,7 @@ const Navbar = () => {
                             <div className="w-auto hidden lg:block">
                                 <ul className="w-auto flex items-center gap-5">
                                     <Link to='/auth/login'><li className="poppins text-base font-medium text-white/80 transition-ease-linear hover:text-white">Login</li></Link>
-                                    <button className="poppins text-base font-semibold text-white bg-gradient-to-r from-orange-400 to-orange-500 py-2 px-4 cursor-pointer transition-ease-linear hover:from-orange-500 hover:to-orange-400">Register</button>
+                                    <button onClick={handleRegister} className="poppins text-base font-semibold text-white bg-gradient-to-r from-orange-400 to-orange-500 py-2 px-4 cursor-pointer transition-ease-linear hover:from-orange-500 hover:to-orange-400">Register</button>
                                 </ul>
                             </div>
                             <div className="w-auto lg:hidden">
