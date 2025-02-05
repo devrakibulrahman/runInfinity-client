@@ -10,7 +10,7 @@ const MarathonPage = () => {
         <>
             <div className="w-full min-h-screen">
                 <PageHeading image={'/img/marathons.png'} heading={'Marathons'} paragraph={'Mid-marathon, runners battle fatigue, harness determination, and every stride fuels dreams of a triumphant finish.'}></PageHeading>
-                <div className="w-full min-h-[200px] py-16 bg-orange-50/50 xl:py-24">
+                <div className="w-full min-h-[200px] py-16 bg-orange-50/50 xl:py-24 dark:bg-gray-950">
                     <div className="container mx-auto px-4">
                         <SectionHeading subText="Our Marathons" heading="Run with determination finish with pride"></SectionHeading>
                         <div className="w-full mt-14 grid gap-6 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
@@ -20,13 +20,13 @@ const MarathonPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full min-h-[200px]">
+                <div className="w-full min-h-[200px] dark:bg-gray-900">
                     <JoinUsSection></JoinUsSection>
                 </div>
                 <div className="w-full min-h-[200px]">
                     <SubscriptionSection></SubscriptionSection>
                 </div>
-                <div className="w-full min-h-[200px]">
+                <div className="w-full min-h-[200px] dark:bg-gray-900">
                     <BlogSection></BlogSection>
                 </div>
             </div>

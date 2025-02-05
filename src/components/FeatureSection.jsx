@@ -13,7 +13,7 @@ const FeatureSection = () => {
 
     return (
         <>
-            <div className="w-full min-h-[100px] pt-16 xl:pt-24 dark:bg-gray-900">
+            <div className="w-full min-h-[100px] pt-16 xl:pt-24">
                 <div className="container mx-auto px-4">
                     <div className="w-full grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
                         {
