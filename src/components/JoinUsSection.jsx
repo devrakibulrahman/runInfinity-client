@@ -3,7 +3,7 @@ import SectionHeading from "./SectionHeading";
 const JoinUsSection = () => {
     return (
         <>
-            <div className="w-full min-h-[500px] py-16 xl:py-24 dark:bg-gray-900">
+            <div className="w-full min-h-[500px] py-16 bg-orange-50/50 xl:py-24 dark:bg-gray-900">
                 <div className="container mx-auto px-4">
                     <SectionHeading subText="Join With Us" heading="Why We Are Your Ultimate Running Partner"></SectionHeading>
                     <div className="w-full min-h-[200px] mt-10 grid grid-cols-1 gap-7 md:grid-cols-2 xl:grid-cols-3">
