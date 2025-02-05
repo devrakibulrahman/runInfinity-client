@@ -18,9 +18,9 @@ const AboutPage = () => {
                 <div className="w-full">
                     <SubscriptionSection></SubscriptionSection>
                 </div>
-                {/* <div className="w-full dark:bg-gray-900">
+                <div className="w-full dark:bg-gray-900">
                     <BlogSection></BlogSection>
-                </div> */}
+                </div>
             </div>
         </>
     );
