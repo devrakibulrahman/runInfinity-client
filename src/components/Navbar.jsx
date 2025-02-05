@@ -31,7 +31,7 @@ const Navbar = () => {
                                 <ul className="w-auto flex items-center gap-6">
                                     <Link><li className="poppins text-base font-medium text-orange-400">Home</li></Link>
                                     <Link><li className="poppins text-base font-medium text-white/80 transition-ease-linear hover:text-white">About Us</li></Link>
-                                    <Link><li className="poppins text-base font-medium text-white/80 transition-ease-linear hover:text-white">Marathons</li></Link>
+                                    <Link to='/marathons'><li className="poppins text-base font-medium text-white/80 transition-ease-linear hover:text-white">Marathons</li></Link>
                                 </ul>
                             </div>
                             <div className="w-auto hidden lg:block">

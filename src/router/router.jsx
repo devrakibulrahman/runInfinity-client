@@ -3,6 +3,7 @@ import MainLayout from "../layouts/MainLayout";
 import HomePage from "../pages/HomePage";
 import LoginPage from "../pages/LoginPage";
 import RegisterPage from "../pages/RegisterPage";
+import MarathonPage from "../pages/MarathonPage";
 
 
 const router = createBrowserRouter([
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <HomePage></HomePage>
+            },
+            {
+                path: '/marathons',
+                element: <MarathonPage></MarathonPage>
             },
             {
                 path: '/auth',
