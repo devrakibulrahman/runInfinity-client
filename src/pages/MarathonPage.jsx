@@ -26,9 +26,9 @@ const MarathonPage = () => {
                 <div className="w-full min-h-[200px]">
                     <SubscriptionSection></SubscriptionSection>
                 </div>
-                {/* <div className="w-full min-h-[200px]">
+                <div className="w-full min-h-[200px]">
                     <BlogSection></BlogSection>
-                </div> */}
+                </div>
             </div>
         </>
     );
