@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 const PageHeading = ({image, heading, paragraph}) => {
     return (
         <>
-            <div className={`w-full min-h-[600px] bg-[url(${image})] bg-fit flex items-center`}>
+            <div className={`w-full min-h-[600px] bg-fit flex items-center`} style={{backgroundImage: `url(${image})`}}>
                 <div className="container mx-auto px-4">
                     <div className="w-full max-w-[700px] space-y-8">
                         <div className="w-full">
-                            <h1 className="poppins text-[64px] text-white font-bold tracking-wide leading-tight xl:text-[68px]">{heading}</h1>
+                            <h1 className="poppins text-5xl text-white font-bold tracking-wide leading-tight md:text-[64px] xl:text-[68px]">{heading}</h1>
                         </div>
                         <div className="w-full relative">
                             <div className="w-full min-h-[2px] bg-gray-500"></div>
