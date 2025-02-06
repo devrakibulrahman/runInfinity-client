@@ -14,9 +14,9 @@ const MarathonDetailsPage = () => {
                 <div className="w-full min-h-[200px] bg-orange-50/50 dark:bg-gray-950">
                     <JoinUsSection></JoinUsSection>
                 </div>
-                {/* <div className="w-full min-h-[200px] bg-white dark:bg-gray-900">
+                <div className="w-full min-h-[200px] bg-white dark:bg-gray-900">
                     <BlogSection></BlogSection>
-                </div> */}
+                </div>
             </div>
         </>
     );
