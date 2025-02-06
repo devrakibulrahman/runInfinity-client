@@ -5,6 +5,7 @@ import LoginPage from "../pages/LoginPage";
 import RegisterPage from "../pages/RegisterPage";
 import MarathonPage from "../pages/MarathonPage";
 import AboutPage from "../pages/AboutPage";
+import MarathonDetailsPage from "../pages/MarathonDetailsPage";
 
 
 const router = createBrowserRouter([
@@ -17,12 +18,18 @@ const router = createBrowserRouter([
                 element: <HomePage></HomePage>
             },
             {
-                path: '/marathons',
-                element: <MarathonPage></MarathonPage>
-            },
-            {
                 path: '/about us',
                 element: <AboutPage></AboutPage>
+            },
+            {
+                path: '/marathons',
+                element: <MarathonPage></MarathonPage>,
+                children:[
+                    {
+                        path: '/marathons/marathon_details/:id',
+                        element: <MarathonDetailsPage></MarathonDetailsPage>
+                    },
+                ],
             },
             {
                 path: '/auth',
