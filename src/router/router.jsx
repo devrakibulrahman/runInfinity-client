@@ -23,13 +23,11 @@ const router = createBrowserRouter([
             },
             {
                 path: '/marathons',
-                element: <MarathonPage></MarathonPage>,
-                children:[
-                    {
-                        path: '/marathons/marathon_details/:id',
-                        element: <MarathonDetailsPage></MarathonDetailsPage>
-                    },
-                ],
+                element: <MarathonPage></MarathonPage>
+            },
+            {
+                path: '/marathons/marathon_details/:id',
+                element: <MarathonDetailsPage></MarathonDetailsPage>
             },
             {
                 path: '/auth',
