@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 const MainLayout = () => {
 
     //? hooks declare here ------------------------->
-    const location = useLocation(); 
+    const location = useLocation();
 
     return (
         <>
