@@ -6,6 +6,7 @@ import RegisterPage from "../pages/RegisterPage";
 import MarathonPage from "../pages/MarathonPage";
 import AboutPage from "../pages/AboutPage";
 import MarathonDetailsPage from "../pages/MarathonDetailsPage";
+import RegistrationPage from "../pages/RegistrationPage";
 
 
 const router = createBrowserRouter([
@@ -27,7 +28,13 @@ const router = createBrowserRouter([
             },
             {
                 path: '/marathons/marathon_details/:id',
-                element: <MarathonDetailsPage></MarathonDetailsPage>
+                element: <MarathonDetailsPage></MarathonDetailsPage>,
+                children: [
+                    {
+                        path: '/marathons/marathon_details/:id/registration',
+                        element: <RegistrationPage></RegistrationPage>
+                    },
+                ],
             },
             {
                 path: '/auth',
